@@ -21,7 +21,7 @@ if match == None:
 # Get domain for DNS lookup
 splitAddress = addressToVerify.split('@')
 domain = str(splitAddress[1])
-print('Domain:', domain)
+print('Domain: ', domain)
 
 # MX record lookup
 records = dns.resolver.query(domain, 'MX')
