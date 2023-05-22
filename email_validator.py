@@ -42,6 +42,6 @@ server.quit()
 
 # Assume SMTP response 250 is success
 if code == 250:
-   print('Email Exist!')
+   print('Email is Valid!')
 else:
-   print('Not Exist!')
+   print('Not Valid!')
